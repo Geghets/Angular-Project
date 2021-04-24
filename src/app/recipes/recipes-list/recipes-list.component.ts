@@ -9,6 +9,8 @@ import {Recipe} from '../recipe.model';
 export class RecipesListComponent implements OnInit {
   recipes: Recipe[] = [
     new Recipe('A Test Recipe', 'This is Simply a Test', 'https://www.eatwell101.com' +
+      '/wp-content/uploads/2019/04/chicken-and-asparagus-skillet-recipe-2.jpg'),
+    new Recipe('A Test Recipe', 'This is Simply a Test', 'https://www.eatwell101.com' +
       '/wp-content/uploads/2019/04/chicken-and-asparagus-skillet-recipe-2.jpg')
   ];
   constructor() { }
