@@ -23,11 +23,11 @@ import {ReactiveFormsModule} from '@angular/forms';
     ShoppingListComponent,
     ShoppingEditComponent
   ],
-    imports: [
-        BrowserModule,
-        AppRoutingModule,
-        ReactiveFormsModule
-    ],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
